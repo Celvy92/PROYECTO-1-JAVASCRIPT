@@ -19,6 +19,7 @@ evaluarNota(50);  // No aprobaste
 evaluarNota(0);   // No aprobaste
 
 // Prueba con un valor aleatorio entre 0 y 100
-let notaAleatoria = Math.floor(Math.random() * 101);
 console.log("Probando con nota aleatoria:");
-evaluarNota(notaAleatoria);
+notaAleatoria = Math.floor(Math.random() * 101); // Asigna un valor aleatorio
+evaluarNota(notaAleatoria);  // Llama a la función con la nota aleatoria
+
