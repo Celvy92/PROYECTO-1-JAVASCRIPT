@@ -30,4 +30,12 @@ let operacion2 = (10 + 5) * 2 // 15 * 2 = 30
 
 console.log(operacion1, operacion2);
 
+//operadores de comparación
+let mayor = 10 > 5 //Mayor que
+let menor = 3 < 8 //Menor que
+let igual = 5 == "5"// Comparacion de VALOR (true)
+let estrictamenteIgual = 5 === "5" //Comparación estricta de VALOR y TIPO DE DATO (false)
+var diferente = 5 != "5" //Diferente (false)
+let estrictamenteDiferente = 5 !== "5" //Estrictamente diferente (true)
 
+console.log(mayor, menor, igual, estrictamenteIgual, diferente, estrictamenteDiferente);
