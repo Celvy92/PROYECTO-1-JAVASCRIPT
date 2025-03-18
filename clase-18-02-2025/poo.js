@@ -27,6 +27,12 @@ let edad = "Una nacionalidad"
            console.log ("Hola, mi nombre es", this.nombre, "tengo", edad, "años, soy", nacionalidad);
 
             }
+//Nota: Los métodos pueden tener incluidos parámetros para utilizarlos dentro de su implementación
+            despedir(nombreAmigo){
+                console.log("Hasta luego", nombreAmigo);
+
+
+            }
         }
 
         //PASO 2. Creación del/los objetos a partir de la clase
@@ -35,7 +41,12 @@ let edad = "Una nacionalidad"
         console.log(persona1)
         //PASO 3. Llamar a los métdos de mi objeto 
         persona1.saludar()
+        persona1.despedir("Vianey")
+        //Ejercicio: Crear un objeto a partir de la clase persona con los datos de nombre = Alejandro
+        //edad =25 y nacionalidad = Frances
+        //new es una palabra reservada que me ayuda a ejecutar el método CONSTRUCTOR que me ayuda a 
+        //darle valores a los atributos de mi nuevo objeto
+        let persona2 = new Persona("Alejandro", 25, "Frances")
 
-        //Ejercicio: Crear un objeto a partir de la clase persona con los datos de nombre = Lucia
-        //edad =30 y nacionalidad = Canadiense
-        let persona2 =new Persona("Alejandro", 25, "Frances")
+        //Ejercicio 2: Nikol se despide de Lya
+persona2.despedir("Lya")
